@@ -1,0 +1,22 @@
+{
+  "rewrites": [
+    { "source": "/api/app/auth.php", "destination": "/api/app/auth" },
+    { "source": "/api/app/roulette.php", "destination": "/api/app/roulette" },
+    { "source": "/api/texdb/player",    "destination": "/api/texdb/player" },
+    { "source": "/api/texdb/playerhi",  "destination": "/api/texdb/player" },
+    { "source": "/api/texdb/menu",      "destination": "/api/texdb/menu" },
+    { "source": "/api/admins-list.json","destination": "/api/admins-list" },
+    { "source": "/api/stats",           "destination": "/api/stats" },
+    { "source": "/play",                "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Authorization" }
+      ]
+    }
+  ]
+}

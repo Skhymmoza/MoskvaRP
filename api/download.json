@@ -1,0 +1,34 @@
+{
+  "_comment_1": "Это главный конфиг который читает APK при запуске",
+  "_comment_2": "Замени apk_url на ссылку на свой APK файл",
+  "_comment_3": "Замени host/port серверов на свои",
+
+  "version": 1,
+  "version_name": "1.0.0",
+
+  "_comment_apk": "Ссылка на скачивание APK (замени при модификации)",
+  "apk_url": "https://moskva-rp.vercel.app/moskva-rp.apk",
+
+  "_comment_servers": "Список серверов SAMP - замени ip и port на свои",
+  "servers": [
+    {
+      "name": "Moskva RP",
+      "host": "188.127.241.74:2924",
+      "port": 2924,
+      "max_players": 1000,
+      "online": 0
+    }
+  ],
+
+  "_comment_cache": "Ссылка на архив с кэшем игры (замени на свой хостинг)",
+  "cache_url": "https://www.dropbox.com/scl/fi/hzas59dpgoqyff25kyvug/files.zip?rlkey=zucy7r1ao9lczgaifg9jc2dup&st=c1t5ya2p&dl=1",
+  "cache_version": 1,
+
+  "_comment_api": "Базовый URL API - замени на свой домен",
+  "api_url": "https://moskva-rp.vercel.app/api",
+  "site_url": "https://moskva-rp.vercel.app/play",
+
+  "_comment_stats": "Общая статистика проекта",
+  "total_players": 0,
+  "total_online": 0
+}
